@@ -58,7 +58,8 @@ def crossing():
     plt.plot(x_values, difference_values)
     plt.plot(x_values, f_values, color = "purple")
     plt.plot(x_values, g_values, color = 'red')
-    plt.title("A graph showing the absolute value of f(x)-g(x) against x")
+    plt.legend(["intersection line","|f(x)-g(x)|","f(x)","g(x)"])
+    plt.title("A plot showing where the two graphs f(x) and g(x0 intersect")
     plt.show()
     
     
